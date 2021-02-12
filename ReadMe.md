@@ -4,7 +4,9 @@
 
 > 설 연휴동안 SSAFY에서 배운걸 최대한 활용해서!!!!GIT HUB으로 내 포트폴리오겸 홈페이지 만들기!!!!!!! 
 
+:star: **내 포트폴리오 주소!**
 
+https://moongchi98.github.io/my_portfolio/
 
 ## 2월 8일: 들어가기 앞서 구상
 
