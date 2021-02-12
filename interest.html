@@ -8,10 +8,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Do+Hyeon&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="index.css">
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
   <title>Document</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
 </head>
-<body>
+<body class="bluebox">
   <header class="sticky-top">
     <!-- navbar -->
     <nav class="navbar bg-white">
@@ -38,14 +39,78 @@
   </header>
   <section class="container-fluid coconut-box">
     <h1 class="dohyun pirate text-center py-3" >사람이 미래다.. 대내/외 활동</h1>
-    <div>
-      <h2 class="dohyun pirate py-3"> 1. 학과 학생회</h2>
+  </section>
+    <div class="bluebox">
+      <h2 class="dohyun text-white mx-5 py-3"> 학과 학생회</h2>
       <!-- 후엥 이거 왜 풀스크린으로 안돼,,? -->
-      <div class="embed-responsive embed-responsive-16by9" style="width:100%">
-        <iframe class="embed-responsive-item" src="images/학생회.mp4" allowfullscreen></iframe>
+      <div class="embed-responsive embed-responsive-16by9">
+        <video height="100%" width="100%" controls>
+          <source src="images/학생회.mp4" type='video/mp4'>
+        </video>
       </div>
     </div>
-  </section>
+    <div class="bluebox pt-5 ">
+      <hr class="coconut">
+      <p class="dohyun text-white fs-3 mx-5">담당 업무 & 활동 내역</p>
+      <figure class="figure row justify-content-between">
+        <div class="col-3 mx-5">
+          <img src="images/디자인.jpg" class="figure-img img-fluid rounded" alt="디자인 툴 사용가능" >
+          <figcaption class="dohyun figure-caption text-center text-white fs-4">디자인 총괄</figcaption>
+          <ul>
+            <li class="noto-sans text-white text-center fs-6">2019년도 화학공학부 행사 홍보 디자인 담당</li>
+            <li class="noto-sans text-white text-center fs-6">2019년도 화학공학부 과잠 기획단 총책임자</li>
+            <li class="noto-sans text-white text-center fs-6">2019년도 공과대학 연합 주점 '공모토리' 디자인 & 홍보 담당</li>
+            <li class="noto-sans text-white text-center fs-6">2019년도 중앙선거관리위원회 공과대학 대표 투표 독려 홍보물 제작</li>
+          </ul>
+          <a href="images/공모토리.jpg">
+            <img src="images/공모토리.jpg" alt="작업물 예시" style="width:100px" class="me-auto">
+          </a>
+          <a href="images/과잠.jpg">
+            <img src="images/과잠.jpg" alt="작업물 예시" style="width:100px" class="me-auto">
+          </a>
+          <a href="images/투표.jpg">
+            <img src="images/투표.jpg" alt="작업물 예시" style="width:100px" class="me-auto">
+          </a>
+        </div>
+        <div class="col-3 mx-5">
+          <img src="images/돈.jpg" class="figure-img img-fluid rounded" alt="회계 담당" >
+          <figcaption class="dohyun figure-caption text-center text-white fs-4">회계 총괄</figcaption>
+          <ul>
+            <li class="noto-sans text-white text-center fs-6">2019년도 화학공학부 학생회비 예산 기획/ 집행</li>
+            <li class="noto-sans text-white text-center fs-6">2019년도 화학공학부 연합 MT 회계 담당</li>
+          </ul>
+        </div>
+        <div class="col-3 mx-5">
+          <img src="images/기획.jpg" class="figure-img img-fluid rounded" alt="기획" >
+          <figcaption class="dohyun figure-caption text-center text-white fs-4">행사 기획 & 총괄</figcaption>
+          <ul>
+            <li class="noto-sans text-white text-center fs-6">2019년도 화학공학과 학생회장</li>
+            <li class="noto-sans text-white text-center fs-6">2019년도 화학공학부 예비대학 기획 & 진행</li>
+            <li class="noto-sans text-white text-center fs-6">2019년도 공과대학 신입생 OT 기획단</li>
+            <li class="noto-sans text-white text-center fs-6">2019년도 화학공학부 연합 MT 기획 & 진행</li>
+            <li class="noto-sans text-white text-center fs-6">2019년도 화학공학부 워크멘토링 기획 & 섭외</li>
+            <li class="noto-sans text-white text-center fs-6">2019년도 공과대학 연합주점 '공모토리' 기획 & 진행</li>
+            <li class="noto-sans text-white text-center fs-6">2019년도 공과대학 농활 기획단</li>
+            <li class="noto-sans text-white text-center fs-6">2019년도 화학공학부 연말 대축제 '대화제' 기획 & 진행</li>
+            <li class="noto-sans text-white text-center fs-6">2019년도 화학공학과 공장 견학 기획 & 진행</li>
+          </ul>
+        </div>
+
+      </figure>
+    </div>
+    <div class="bluebox">
+      <hr class="coconut">
+      <h2 class="dohyun text-white mx-5 py-3">교환 학생</h2>
+      <div class="d-flex flex-column align-items-center">
+        <img src="images/교환.jpg" alt="교환학생" style="width:50%">
+        <ul class="mt-3">
+          <li class="noto-sans text-white text-center fs-6">2020년 1학기 취리히 응용과학대 (Aviation) 교환학생</li>
+          <li class="noto-sans text-white text-center fs-6">2020년도 봄학기 건국대학교 교환학생 대상 TOFEL 장학생 선정</li>
+        </ul>
+        <p class="text-white fs-1 noto-sans">난 이제 한계다 더이상 사진을 추가할 힘이 없따</p>
+      </div>
+    </div>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
 </html>
